@@ -1,10 +1,9 @@
-package com.thetestingacademy.ex_03_TestNG_AllureReoprt;
+package com.thetestingacademy.ex_3_TestNG_AllureReoprt;
 
-import groovy.transform.ASTTest;
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
 
-public class APITesting_Lab06_TestCase {
+public class APITesting_Lab07_TestCase {
     String pincode = "110048";
 
     @Test
