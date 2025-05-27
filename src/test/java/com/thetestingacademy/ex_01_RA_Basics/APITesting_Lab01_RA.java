@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex_1_RA_Basics;
+package com.thetestingacademy.ex_01_RA_Basics;
 
 import io.restassured.RestAssured;
 
