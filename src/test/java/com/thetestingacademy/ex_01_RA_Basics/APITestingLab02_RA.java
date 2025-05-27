@@ -1,10 +1,10 @@
-package com.thetestingacademy.ex_1_RA_Basics;
+package com.thetestingacademy.ex_01_RA_Basics;
 
 import io.restassured.RestAssured;
 
 import java.util.Scanner;
 
-public class APITestingLan02_RA {
+public class APITestingLab02_RA {
 
     public static void main(String[] args) {
 
