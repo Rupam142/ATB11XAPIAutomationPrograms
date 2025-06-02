@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex_06_TestAssetions;
+package com.thetestingacademy.ex_07_Payload_Management.String;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -9,16 +9,15 @@ import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
-public class APITesting027_RestAssured_TestNG_AssertJ_Assertions {
+public class APITesting027_1_RestAssured_TestNG_AssertJ_Assertions {
 
     RequestSpecification requestSpecification;
     ValidatableResponse validatableResponse;
     Response response;
     String token;
     Integer bookingId;
-
 
     @Test
     public void test_POST() {
@@ -70,10 +69,10 @@ public class APITesting027_RestAssured_TestNG_AssertJ_Assertions {
         // HardAssert -
         // This means that if any assertion fails,
         // the remaining statements in that test method will not be executed.
-
         Assert.assertEquals(firstname,"Pramod");
-        Assert.assertEquals(lastname,"Dutta");
+        Assert.assertEquals(lastname,"Brown");
         Assert.assertNotNull(bookingId);
+
 
 
         //
@@ -85,7 +84,8 @@ public class APITesting027_RestAssured_TestNG_AssertJ_Assertions {
         //        String s2 = " "; //Blank
 
 
-    }
 
+
+    }
 
 }
